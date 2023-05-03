@@ -1,0 +1,149 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #060d09;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+section {
+    display: block;
+    top: 0px;
+}
+
+.header a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.portfolio_button {
+    font-family: cursive;
+}
+
+.menu_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.h_text {
+    font-size: 12vh;
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 2vh;
+    z-index: 2;
+}
+
+.lower_text {
+    padding-left: 19vh;
+    color: #000;
+    text-shadow:
+        -1px -1px 0 #FFF,
+        0   -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        1px  0   0 #FFF,
+        1px  1px 0 #FFF,
+        0    1px 0 #FFF,
+        -1px  1px 0 #FFF,
+        -1px  0   0 #FFF;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.5vh;
+    font-weight: lighter;
+}
+
+.menu a:hover {
+    color: green;
+}
+
+.main_video {
+    position: absolute;
+    translate: translateY(-50%);
+    width: 60%;
+    top: 30vh;
+    right: 0;
+    z-index: 1;
+}
+
+.container {
+    display: fixed;
+    position: relative;
+    top:58vh;
+    width: 100%;
+    border: 3px solid red;
+    margin-top: 3vh;
+}
+
+.contact_name {
+    font-size: 26px;
+}
+
+.contact_field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 6vh;
+}
+
+.contact_photo img {
+    max-width: 380px;
+    margin-top: 2vh;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #060d09; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: green; 
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 69, 0); 
+  }
+
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #060d09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+
+  .loader-anim {
+    width: 10%;
+  }
